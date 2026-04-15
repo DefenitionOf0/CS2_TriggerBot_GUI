@@ -9,7 +9,7 @@ client = Client()
 
 dwEntityList = client.offset('dwEntityList')
 dwLocalPlayerPawn = client.offset('dwLocalPlayerPawn')
-m_iIDEntIndex = client.get('C_CSPlayerPawnBase', 'm_iIDEntIndex')
+m_iIDEntIndex = client.get('C_CSPlayerPawn', 'm_iIDEntIndex')
 m_iTeamNum = client.get('C_BaseEntity', 'm_iTeamNum')
 m_iHealth = client.get('C_BaseEntity', 'm_iHealth')
 
@@ -60,3 +60,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
