@@ -10,9 +10,17 @@ I've personally never been banned while using it, but I can't say it's safe. Use
 ## How to execute it?
 Install Python `https://www.python.org/downloads/windows/`
 
-Run CMD `Win+R CMD`
+Run CMD `Win+R CMD` then `cd *path*`
 
 Simply perform a `pip install -r requirements.txt` and proceed to run the Python script `python main.py`.
+## How to build it to .exe?
+Run CMD `Win+R CMD`
+
+`pip install pyinstaller`
+
+`cd *path*`
+
+`pyinstaller --onefile --noconsole --name CS2TriggerBot main.py`
 
 ---
 
