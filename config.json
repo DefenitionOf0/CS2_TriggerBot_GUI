@@ -1,0 +1,9 @@
+{
+    "trigger_key": "shift",
+    "delay_min": 0.01,
+    "delay_max": 0.04,
+    "hold_min": 0.01,
+    "hold_max": 0.05,
+    "check_team": true,
+    "enabled": true
+}
