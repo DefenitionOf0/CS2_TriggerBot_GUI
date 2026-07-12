@@ -6,7 +6,7 @@ Simple CS2 TriggerBot W/O Memory Writing
 I've personally never been banned while using it, but I can't say it's safe. Use at your own risk.
 
 ## How to execute it?
-Simply perform a `pip install -r requirements.txt` and proceed to run the Python script.
+Simply perform a `pip install -r requirements.txt` and proceed to run the Python script `python main.py`.
 
 ---
 
